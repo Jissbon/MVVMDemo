@@ -16,6 +16,7 @@
 		D80FACF222144080008DAC33 /* HomeVM.m in Sources */ = {isa = PBXBuildFile; fileRef = D80FACF122144080008DAC33 /* HomeVM.m */; };
 		D80FACF6221440CA008DAC33 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D80FACF4221440CA008DAC33 /* DetailViewController.m */; };
 		D80FACFB22144131008DAC33 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D80FACF922144130008DAC33 /* HeaderView.m */; };
+		D80FAD212215550F008DAC33 /* DetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D80FAD202215550F008DAC33 /* DetailModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		D80FACF5221440CA008DAC33 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		D80FACF922144130008DAC33 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
 		D80FACFA22144131008DAC33 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		D80FAD1F2215550F008DAC33 /* DetailModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailModel.h; sourceTree = "<group>"; };
+		D80FAD202215550F008DAC33 /* DetailModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +73,8 @@
 			children = (
 				D80FACD622143FFD008DAC33 /* AppDelegate.h */,
 				D80FACD722143FFD008DAC33 /* AppDelegate.m */,
+				D80FAD1E221554DE008DAC33 /* Model */,
 				D80FACF82214411F008DAC33 /* View */,
-				D80FACF72214410E008DAC33 /* Model */,
 				D80FACF3221440B0008DAC33 /* Controller */,
 				D80FACEC22144052008DAC33 /* ViewModel */,
 				D80FACDF22144003008DAC33 /* Assets.xcassets */,
@@ -104,13 +107,6 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		D80FACF72214410E008DAC33 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		D80FACF82214411F008DAC33 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +114,15 @@
 				D80FACF922144130008DAC33 /* HeaderView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		D80FAD1E221554DE008DAC33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D80FAD1F2215550F008DAC33 /* DetailModel.h */,
+				D80FAD202215550F008DAC33 /* DetailModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +198,7 @@
 				D80FACDB22143FFD008DAC33 /* ViewController.m in Sources */,
 				D80FACEF2214406C008DAC33 /* ViewModelClass.m in Sources */,
 				D80FACE622144003008DAC33 /* main.m in Sources */,
+				D80FAD212215550F008DAC33 /* DetailModel.m in Sources */,
 				D80FACF222144080008DAC33 /* HomeVM.m in Sources */,
 				D80FACD822143FFD008DAC33 /* AppDelegate.m in Sources */,
 				D80FACF6221440CA008DAC33 /* DetailViewController.m in Sources */,
